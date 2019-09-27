@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -95,7 +95,7 @@
             </plugin>
         </plugins>
     </build>
-    <!--
+
     <distributionManagement>
         <repository>
             <id>archiva.internal</id>
@@ -109,7 +109,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-
+    <!--
     <scm>
         <connection>scm:git:ssh://github.com/lukeecrane/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:git@github.com:lukeecrane/sfg-pet-clinic.git</developerConnection>
@@ -119,6 +119,7 @@
      -->
     <scm>
         <developerConnection>scm:git:git@github.com:lukeecrane/sfg-pet-clinic.git</developerConnection>
-  </scm>
+        <url>http://localhost:9080/#browse/guru.springframework</url>
+    </scm>
 
 </project>
